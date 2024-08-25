@@ -26,7 +26,7 @@ plt.xlabel("X")
 plt.ylabel("f(X)")
 plt.legend(loc='upper left')
 plt.grid(True)
-
+plt.tight_layout()
 # Save the plot as an image file
-plt.savefig('gaussian_process_plot.png')
+plt.savefig('gaussian_process_plot.png',dpi=600,bbox_inches="tight")
 plt.close()
